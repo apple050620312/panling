@@ -17,7 +17,7 @@ execute if entity @a[x=2992,y=0,z=-2000,dx=271,dy=255,dz=303] run function pld:i
 function pld:pvp/tick
 
 #==================================非玩家實體tick=================================#
-execute as @e[type=!player,type=!item_frame,type=!glow_item_frame,type=!bat,type=!villager] run function pld:ticks/entity/entity_check
+execute as @e[type=!player,type=!item_frame,type=!glow_item_frame,type=!bat,type=!villager,type=!experience_orb] run function pld:ticks/entity/entity_check
 
 #==================================玩家tick=======================================#
 execute as @a run function pld:ticks/player/player_tick
