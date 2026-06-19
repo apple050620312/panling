@@ -16,6 +16,7 @@ scoreboard objectives add draw.bossskill.mainskill.3.tag dummy "boss三階段武
 scoreboard objectives add draw.3.dead dummy "玩家死亡稀有度數"
 scoreboard objectives add draw.3.di dummy "boss敵層數"
 scoreboard objectives add draw.3.dream dummy "boss敵層數"
+scoreboard objectives add draw.loop dummy "boss特效迴圈次數"
 
 
 bossbar add dlc:draw_bossbar {"text":"筆墨入畫","color":"white"}

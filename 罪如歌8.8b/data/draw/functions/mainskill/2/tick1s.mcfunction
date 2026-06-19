@@ -5,9 +5,13 @@ execute if score #dlc draw.bossskill.mainskill.2.tag matches 1 at @e[tag=draw_bo
 execute at @e[tag=draw,tag=special,tag=0] run summon marker ~ ~1 ~ {Tags:["0","special","draw"]}
 execute at @e[tag=draw,tag=special,tag=1] run summon marker ~ ~1 ~ {Tags:["1","special","draw"]}
 
+execute if score #dlc draw.bossskill.mainskill.2.tag matches 0 as @e[type=marker,tag=special,tag=0] run scoreboard players set @s draw.loop 0
 execute if score #dlc draw.bossskill.mainskill.2.tag matches 0 as @e[type=marker,tag=special,tag=0] at @s run function draw:mainskill/2/0_0
+execute if score #dlc draw.bossskill.mainskill.2.tag matches 0 as @e[type=marker,tag=special,tag=1] run scoreboard players set @s draw.loop 0
 execute if score #dlc draw.bossskill.mainskill.2.tag matches 0 as @e[type=marker,tag=special,tag=1] at @s run function draw:mainskill/2/1_0
+execute if score #dlc draw.bossskill.mainskill.2.tag matches 1 as @e[type=marker,tag=special,tag=0] run scoreboard players set @s draw.loop 0
 execute if score #dlc draw.bossskill.mainskill.2.tag matches 1 as @e[type=marker,tag=special,tag=0] at @s run function draw:mainskill/2/0_1
+execute if score #dlc draw.bossskill.mainskill.2.tag matches 1 as @e[type=marker,tag=special,tag=1] run scoreboard players set @s draw.loop 0
 execute if score #dlc draw.bossskill.mainskill.2.tag matches 1 as @e[type=marker,tag=special,tag=1] at @s run function draw:mainskill/2/1_1
 #同色效果
 execute as @a[tag=draw_sins] run scoreboard players add @s draw.bossskill.mainskill.2.debuff 5
