@@ -32,3 +32,7 @@ bossbar set pl:instance1_boss players @a[x=2795,y=68,z=-432,dx=47,dy=27,dz=36]
 bossbar set pld:instance3_bosshp players @a[x=2695,y=68,z=-905,dx=40,dy=10,dz=40]
 
 #schedule function pld:ticks/1s 1s
+
+# 全自動零延遲 NPC 村民 AI 優化
+execute as @e[type=villager,tag=panling,tag=!optimized_ai] if data entity @s Offers if data entity @s {Invulnerable:1b} unless data entity @s {NoAI:1b} run data merge entity @s {NoAI:1b}
+execute as @e[type=villager,tag=panling,tag=!optimized_ai] run tag @s add optimized_ai

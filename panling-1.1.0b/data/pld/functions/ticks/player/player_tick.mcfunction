@@ -47,7 +47,9 @@ execute if score @s damage_tick matches 0.. run function pld:pre/damage/tick
 
 #抗毒效果
 scoreboard players reset @s temp
-execute if predicate pld:effect_check/luck store result score @s temp run data get entity @s ActiveEffects[{Id:26}].Amplifier
+execute if predicate pld:effect_check/luck run scoreboard players set @s temp 0
+execute if predicate pld:effect_check/luck1 run scoreboard players set @s temp 1
+execute if predicate pld:effect_check/luck2 run scoreboard players set @s temp 2
 execute if score @s temp matches 0.. run effect clear @s poison 
 execute if score @s temp matches 1.. run effect clear @s wither
 execute if score @s temp matches 2.. run effect clear @s slowness

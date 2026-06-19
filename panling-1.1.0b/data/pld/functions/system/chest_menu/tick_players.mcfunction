@@ -3,7 +3,8 @@ execute if score @s screen matches 0.. run data modify storage pld:system Temp s
 execute if score @s screen matches 0.. run data modify storage pld:system Temp_ender_data set value {}
 execute if score @s screen matches 0.. run data modify storage pld:system Temp_chest set value []
 #拋出玩家數據
-execute if score @s screen matches 0.. run data modify storage pld:system Temp set from entity @s {}
+execute if score @s screen matches 0.. run data modify storage pld:system Temp.EnderItems set from entity @s EnderItems
+execute if score @s screen matches 0.. run data modify storage pld:system Temp.Rotation set from entity @s Rotation
 #拋出儲存數據到Temp_ender_data
 execute if score @s screen matches 0.. run data modify storage pld:system Temp_ender_data set from storage pld:system Temp.EnderItems[{Slot:0b}].tag.data
 #execute if score @s screen matches 0.. run tellraw yl_jiu_qiu {"nbt":"Temp.EnderItems[{Slot:0b}]","storage":"pld:system"}
