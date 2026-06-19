@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "npc1": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"dlcnpc1\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dlc:main/advancements/npcdh"
+    }
+}

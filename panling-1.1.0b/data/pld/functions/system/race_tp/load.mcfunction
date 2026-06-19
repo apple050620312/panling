@@ -1,0 +1,1 @@
+scoreboard objectives add racefriend_tick dummy ["低好感擊殺倒計時"]

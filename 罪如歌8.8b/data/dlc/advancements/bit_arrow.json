@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "test":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    
+                    "type":{
+                        "direct_entity": {
+                            "type": "#minecraft:arrows"
+                          }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dlc:main/advancements/bit_arrow"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "trade_book":{
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:written_book"],
+                    "nbt":"{id:\"fire:wangchen\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fire:npc/trade/book"
+    }
+}

@@ -1,0 +1,12 @@
+#召喚兩隻怪物,一真一假,tag分別爲zhen  jia
+
+#468 10 -2100   #421 10 -2100
+scoreboard players set #system dark_kind 3
+kill @e[type=marker,tag=dark]
+function newdark:summon/markers/c
+execute as @e[type=marker,tag=dark,tag=boss,limit=1,sort=random] run tag @s add zhen
+execute as @e[type=marker,tag=dark,tag=boss,tag=!zhen] run tag @s add jia
+execute at @e[type=marker,tag=dark,tag=boss,tag=jia] run summon minecraft:skeleton ~ ~ ~ {Team:"monster",Tags:["panling","undead","monster","dark","boss","jia"],DeathLootTable:"newdark:diaoluowu",CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"text":"詭祕侍者(?)","color":"red"}',Health:512.0f,Attributes:[ {Name:"generic.max_health",Base:300}, {Name:"generic.follow_range",Base:80d}, {Name:"generic.movement_speed",Base:0.2d}, {Name:"generic.attack_damage",Base:0d}, {Name:"generic.knockback_resistance",Base:0d} ],ArmorItems:[{id:"golden_boots",Count:1b,tag:{Unbreakable:1b}},{id:"golden_leggings",Count:1b,tag:{Unbreakable:1b}},{id:"golden_chestplate",Count:1b,tag:{Unbreakable:1b}},{id:"golden_helmet",Count:1b,tag:{Unbreakable:1b}}],HandItems:[{id:"bow",Count:1b,tag:{Unbreakable:1,Enchantments:[{id:"power",lvl:8}]}},{}]}
+execute at @e[type=marker,tag=dark,tag=boss,tag=zhen] run summon minecraft:skeleton ~ ~ ~ {Team:"monster",Tags:["panling","undead","monster","dark","boss","zhen"],DeathLootTable:"newdark:diaoluowu",CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"text":"詭祕侍者(?)","color":"red"}',Health:512.0f,Attributes:[ {Name:"generic.max_health",Base:300}, {Name:"generic.follow_range",Base:80d}, {Name:"generic.movement_speed",Base:0.2d}, {Name:"generic.attack_damage",Base:0d}, {Name:"generic.knockback_resistance",Base:0d} ],ArmorItems:[{id:"golden_boots",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"protection",lvl:1}]}},{id:"golden_leggings",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"protection",lvl:1}]}},{id:"golden_chestplate",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"protection",lvl:1}]}},{id:"golden_helmet",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"protection",lvl:1}]}}],HandItems:[{id:"bow",Count:1b,tag:{Unbreakable:1,Enchantments:[{id:"power",lvl:8}]}},{}]}
+kill @e[type=marker,tag=dark]
+function newdark:tags/check/monsters

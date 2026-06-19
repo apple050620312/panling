@@ -1,0 +1,1 @@
+scoreboard players operation @s temp -= #dlc damage_middle

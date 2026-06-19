@@ -1,0 +1,6 @@
+scoreboard objectives add shen_test_mont dummy ["盤古山川試煉通過"]
+scoreboard objectives add shen_test_sun dummy ["盤古日月試煉通過"]
+scoreboard objectives add shen_test_forest dummy ["盤古林試煉通過"]
+scoreboard objectives add shen_test_star dummy ["盤古星辰試煉通過"]
+scoreboard objectives add shen_test_sea dummy ["盤古海試煉通過"]
+scoreboard objectives add shen_test_all dummy ["盤古試煉通過"]

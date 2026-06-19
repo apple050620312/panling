@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "shoushang":{
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "draw:advancements/shoushang"
+    }
+}

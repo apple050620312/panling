@@ -1,0 +1,18 @@
+#裝備稀有度&套裝效果id
+execute store result score @s armor_rare_head run data get block ~ 255 ~ Items[0].tag.rare
+execute if data block ~ 255 ~ Items[0].tag.set_bonus_id store result score @s armor_set_bonus_id_head run data get block ~ 255 ~ Items[0].tag.set_bonus_id
+
+#裝備泛用屬性-進攻-頭
+scoreboard players operation @s head_atk_pt_base1 = @s equipment_atk_pt_base1
+scoreboard players operation @s head_atk_pt_multiply_base = @s equipment_atk_pt_multiply_base
+scoreboard players operation @s head_atk_pt_multiply = @s equipment_atk_pt_multiply
+scoreboard players operation @s head_atk_pt_final_add1 = @s equipment_atk_pt_final_add1
+
+#裝備泛用屬性-速度-頭
+scoreboard players operation @s head_speed_pc_multiply_base = @s equipment_speed_pc_multiply_base
+scoreboard players operation @s head_speed_pc_multiply = @s equipment_speed_pc_multiply
+
+#裝備泛用屬性-減傷-頭
+scoreboard players operation @s head_all_protection_multiply_base = @s equipment_all_protection_multiply_base
+scoreboard players operation @s head_arrow_protection_multiply_base = @s equipment_arrow_protection_multiply_base
+scoreboard players operation @s head_fire_protection_multiply_base = @s equipment_fire_protection_multiply_base 

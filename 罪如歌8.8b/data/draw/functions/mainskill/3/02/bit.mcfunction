@@ -1,0 +1,2 @@
+scoreboard players add #dlc draw.3.di 1
+title @a[scores={dlc_ins=5}] actionbar [{"text":"負罪者當前[敵]數量：","color": "aqua"},{"score": {"name": "#dlc","objective": "draw.3.di"}},{"translate":"/10","color": "aqua"}]

@@ -1,0 +1,2 @@
+##當#system的instnace7_parkour爲1時 循環執行此函數
+execute if score #system instance7_parkour_sword matches 1 unless entity @e[x=306,y=4,z=-1612,dx=118,dy=59,dz=75,tag=instance7] run function fire:main/ex0/success

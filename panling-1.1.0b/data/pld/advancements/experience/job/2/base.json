@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:1}"
+        },
+        "title":  "丹藥與元素",
+        "description":  {"translate": "pl.adv.job2.description"},
+        "announce_to_chat": true
+    },
+    "parent": "pld:experience/job/root",
+    "criteria": {
+        "impossible":{
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/experience/job/2/base"
+    }
+}

@@ -1,0 +1,7 @@
+#檢查是否爲特別感謝玩家
+tag @s add thank_check
+function #pld:thank_online
+tag @s remove thank_check
+
+
+

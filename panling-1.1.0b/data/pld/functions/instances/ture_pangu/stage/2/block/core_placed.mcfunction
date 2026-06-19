@@ -1,0 +1,7 @@
+#提示-陣法核心已放置，可以開始搭建基礎陣法
+tellraw @a {"translate":"pl.info.zf_phase1.core_placed"}
+#亮起bossbar
+bossbar set pl:final_battle_base_wood visible true
+
+
+advancement revoke @s only pld:system/final_battle/place_core_wood

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "title": {"translate": "dlc.adv.sins.instances.ice"},
+        "description": {"translate": "dlc.adv.sins.instances.ice.lore"},
+        "announce_to_chat": false,
+        "show_toast": true
+    },
+    "parent": "dlc:adv/instances/root",
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "dlc:main/advancements/adv/ice"
+    }
+}

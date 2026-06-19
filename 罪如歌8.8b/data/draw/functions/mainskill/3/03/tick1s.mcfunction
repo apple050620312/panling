@@ -1,0 +1,1 @@
+effect give @e[tag=draw_boss] resistance 30000 1

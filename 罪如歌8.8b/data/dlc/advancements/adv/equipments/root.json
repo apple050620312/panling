@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": {"translate": "dlc.adv.sins.equipments"},
+        "description": {"translate": "dlc.adv.sins.equipments.lore"},
+        "background": "panling:l6.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "dlc:adv/start",
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

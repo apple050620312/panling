@@ -1,0 +1,1 @@
+execute if score @s dlc_ins matches 5 if score #dlc draw.boss.maxhp matches 2 run function draw:mainskill/2/shoushang

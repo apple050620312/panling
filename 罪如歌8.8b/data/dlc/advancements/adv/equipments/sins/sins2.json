@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "title": {"translate": "dlc.adv.sins.equipments.dz.2"},
+        "description": {"translate": "dlc.adv.sins.equipments.dz.2.lore"},
+        "background": "panling:l6.png",
+        "announce_to_chat": false,
+        "show_toast": true
+    },
+    "parent": "dlc:adv/equipments/sins/sins1",
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

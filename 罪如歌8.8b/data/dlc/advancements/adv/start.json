@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tripwire_hook"
+        },
+        "title": {"translate": "dlc.adv.sins.start"},
+        "description": {"translate": "dlc.adv.sins.start.lore"},
+        "background": "panling:l6.png",
+        "announce_to_chat": false,
+        "show_toast": true
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,2 @@
+
+$damage @s $(temp) arrow

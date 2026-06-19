@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "firecore": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"firecore\",\"invulnerable\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fire:main/ex0/cores/hit_invfirecore"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_axe"
+        },
+        "title": {"translate": "dlc.adv.sins.equipments.dz.1"},
+        "description": {"translate": "dlc.adv.sins.equipments.dz.1.lore"},
+        "background": "panling:l6.png",
+        "announce_to_chat": false,
+        "show_toast": true
+    },
+    "parent": "dlc:adv/equipments/root",
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

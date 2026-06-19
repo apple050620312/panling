@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "lingpai": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"firesoul\"]}",
+                    "type": "villager"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:brick"
+                    ],
+                    "nbt": "{id:\"fire:lingpai\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fire:main/ex1/birdcheck"
+    }
+}

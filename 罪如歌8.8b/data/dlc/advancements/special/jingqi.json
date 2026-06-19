@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "move_weapon":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{id:\"fairy:small_flag\"}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dlc:weapon_skill/fairysword/jingqi"
+    }
+}

@@ -1,0 +1,12 @@
+#區塊強加載
+forceload add -83 -518
+#要做的事
+setblock -84 32 -520 minecraft:command_block{Command:"execute as @p[x=-84,y=34,z=-520,distance=..3] run function pld:system/altars/turtle/intoturtle_altar"} replace 
+setblock -84 33 -518 minecraft:command_block{Command:"tp @p[distance=..3] -84 35 -522"} replace 
+data merge block -88 36 -525 {front_text:{messages:['{"translate":"pl.sign.north4.text3"}','{"translate":"pl.sign.north14.text2"}','{"translate":""}','{"translate":"pl.sign.north13.text4"}']}}
+#區塊卸載
+forceload remove -83 -518
+#記分板數值增加以及bossbar修改
+function pld:beta/chunk/count
+#鏈接下一個chunk
+schedule function pld:beta/chunk/north/-6_-35 1t

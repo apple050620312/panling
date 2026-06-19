@@ -1,0 +1,2 @@
+execute unless entity @s[scores={fire_EX=1}] run function fire:waterfire/ex0/fire
+execute if entity @s[scores={fire_EX=1},nbt={Inventory:[{id:"minecraft:brick",tag:{id:"fire:EX1"}}]}] run function fire:waterfire/ex1/init

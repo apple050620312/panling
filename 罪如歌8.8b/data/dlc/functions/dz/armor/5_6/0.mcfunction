@@ -1,0 +1,4 @@
+execute if score #system temp2 matches 0 if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:0b,tag:{id:"fire:collection"}}]} run function dlc:dz/armor/5_6/0/0
+execute if score #system temp2 matches 1 if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:0b,tag:{id:"ice:collection"}}]} run function dlc:dz/armor/5_6/1/0
+execute if score #system temp2 matches 0 if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:0b,tag:{id:"fairy:collection"}}]} run function dlc:dz/armor/5_6/0/0
+execute if score #system temp2 matches 1 if block ~ ~ ~ minecraft:dispenser{Items:[{Slot:0b,tag:{id:"dream:collection"}}]} run function dlc:dz/armor/5_6/1/0

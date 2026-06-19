@@ -1,0 +1,1 @@
+attribute @s minecraft:generic.movement_speed modifier add 1-5-5-5-5 "驚夢武器屬性-速度" 0.2 multiply_base

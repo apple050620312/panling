@@ -1,0 +1,2 @@
+execute unless entity @e[tag=draw.skill3.1] at @r[scores={dlc_ins=5}] run function draw:mainskill/3/01/summon
+execute if score #dlc draw.bossskill.mainskill.tick5s matches 0 if score #dlc draw.bossskill.protect matches 0 run function draw:mainskill/3/01/resummon

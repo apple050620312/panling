@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:phantom_membrane",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],id:\"dlc:fairy_weapon_item\",display:{Name:'{\"translate\":\"in.fairy.weaponitem.name\"}',Lore:['{\"translate\":\"pl.lore.rare6\"}','{\"translate\":\"pl.lore.limit_lvl_50\"}','{\"translate\":\"in.fairy.weaponitem.lore.a\"}','{\"translate\":\"in.fairy.weaponitem.lore.b\"}','{\"translate\":\"in.fairy.weaponitem.lore.c\"}','{\"translate\":\"in.fairy.weaponitem.lore.d\"}','{\"translate\":\"in.fairy.weaponitem.lore.e\"}','{\"translate\":\"in.fairy.weaponitem.lore.f\"}']}}"   
+                }
+            ]
+          }
+        ]
+      }
+    ]
+}

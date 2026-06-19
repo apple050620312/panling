@@ -1,0 +1,2 @@
+execute if score @s dark_on matches 1 run scoreboard players operation @s dark_ch -= @s dark_maxch_2
+execute if score @s dark_on matches 1 if score @s dark_ch matches ..0 run scoreboard players set @s dark_ch 0

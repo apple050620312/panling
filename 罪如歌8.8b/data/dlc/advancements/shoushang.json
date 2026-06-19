@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "npc1": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "dlc:main/advancements/shoushang"
+    }
+}

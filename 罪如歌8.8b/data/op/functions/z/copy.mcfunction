@@ -1,0 +1,44 @@
+item replace entity @p[tag=op] armor.head from entity @s armor.head
+item replace entity @p[tag=op] armor.chest from entity @s armor.chest
+item replace entity @p[tag=op] armor.legs from entity @s armor.legs
+item replace entity @p[tag=op] armor.feet from entity @s armor.feet
+
+item replace entity @p[tag=op] inventory.0 from entity @s inventory.0
+item replace entity @p[tag=op] inventory.1 from entity @s inventory.1
+item replace entity @p[tag=op] inventory.2 from entity @s inventory.2
+item replace entity @p[tag=op] inventory.3 from entity @s inventory.3
+item replace entity @p[tag=op] inventory.4 from entity @s inventory.4
+item replace entity @p[tag=op] inventory.5 from entity @s inventory.5
+item replace entity @p[tag=op] inventory.6 from entity @s inventory.6
+item replace entity @p[tag=op] inventory.7 from entity @s inventory.7
+item replace entity @p[tag=op] inventory.8 from entity @s inventory.8
+item replace entity @p[tag=op] inventory.9 from entity @s inventory.9
+item replace entity @p[tag=op] inventory.10 from entity @s inventory.10
+item replace entity @p[tag=op] inventory.11 from entity @s inventory.11
+item replace entity @p[tag=op] inventory.12 from entity @s inventory.12
+item replace entity @p[tag=op] inventory.13 from entity @s inventory.13
+item replace entity @p[tag=op] inventory.14 from entity @s inventory.14
+item replace entity @p[tag=op] inventory.15 from entity @s inventory.15
+item replace entity @p[tag=op] inventory.16 from entity @s inventory.16
+item replace entity @p[tag=op] inventory.17 from entity @s inventory.17
+item replace entity @p[tag=op] inventory.18 from entity @s inventory.18
+item replace entity @p[tag=op] inventory.19 from entity @s inventory.19
+item replace entity @p[tag=op] inventory.20 from entity @s inventory.20
+item replace entity @p[tag=op] inventory.21 from entity @s inventory.21
+item replace entity @p[tag=op] inventory.22 from entity @s inventory.22
+item replace entity @p[tag=op] inventory.23 from entity @s inventory.23
+item replace entity @p[tag=op] inventory.24 from entity @s inventory.24
+item replace entity @p[tag=op] inventory.25 from entity @s inventory.25
+item replace entity @p[tag=op] inventory.26 from entity @s inventory.26
+
+item replace entity @p[tag=op] hotbar.0 from entity @s hotbar.0
+item replace entity @p[tag=op] hotbar.1 from entity @s hotbar.1
+item replace entity @p[tag=op] hotbar.2 from entity @s hotbar.2
+item replace entity @p[tag=op] hotbar.3 from entity @s hotbar.3
+item replace entity @p[tag=op] hotbar.4 from entity @s hotbar.4
+item replace entity @p[tag=op] hotbar.5 from entity @s hotbar.5
+item replace entity @p[tag=op] hotbar.6 from entity @s hotbar.6
+item replace entity @p[tag=op] hotbar.7 from entity @s hotbar.7
+item replace entity @p[tag=op] hotbar.8 from entity @s hotbar.8
+
+item replace entity @p[tag=op] weapon.offhand from entity @s weapon.offhand

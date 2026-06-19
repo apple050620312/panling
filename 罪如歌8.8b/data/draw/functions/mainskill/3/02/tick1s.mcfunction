@@ -1,0 +1,2 @@
+execute if score #dlc draw.3.di matches 10.. as @a if score @s dlc_ins matches 5 run function draw:mainskill/3/02/di
+execute if score #dlc draw.3.di matches 10.. run scoreboard players remove #dlc draw.3.di 10

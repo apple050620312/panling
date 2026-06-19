@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:green_wool"
+        },
+        "title": {"translate": "dlc.adv.sins.instances.dark.30"},
+        "description": {"translate": "dlc.adv.sins.instances.dark.30.lore"},
+        "announce_to_chat": false,
+        "show_toast": true
+    },
+    "parent": "dlc:adv/instances/dark/dark26",
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "dlc:main/advancements/adv/dark"
+    }
+}

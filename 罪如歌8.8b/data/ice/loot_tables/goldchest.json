@@ -1,0 +1,111 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "_comment":"金宝箱产物-三阶附灵石",
+                    "weight": 20,
+                    "type": "minecraft:item",
+                    "name": "minecraft:blue_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ice:1,chest:3,id:\"panling:enchant_stone\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },{
+                    "_comment":"金宝箱产物-五阶防具核心",
+                    "weight": 20,
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ice:1,chest:3,id:\"panling:armor_core_5\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-灵玉简",
+                    "weight": 15,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ice:1,chest:3,id:\"panling:weapon_core_5\"}"
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-千炼玉",
+                    "weight": 15,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ice:1,chest:3,id:\"panling:armor_core_52\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-冰本货物",
+                    "weight": 15,
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ice:1,chest:3,id:\"ice:collection\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-勾玉",
+                    "weight": 10,
+                    "type": "minecraft:item",
+                    "name": "minecraft:cyan_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ice:1,chest:3,id:\"ice:balance\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器雏形",
+                    "weight": 5,
+                    "type": "minecraft:item",
+                    "name": "minecraft:phantom_membrane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ice:1,chest:3,id:\"ice:weapon_item\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

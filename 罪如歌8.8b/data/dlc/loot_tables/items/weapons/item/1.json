@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:phantom_membrane",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],id:\"dlc:ice_weapon_item\",display:{Name:'{\"translate\":\"in.ice.weaponitem.name\"}',Lore:['{\"translate\":\"pl.lore.rare6\"}','{\"translate\":\"pl.lore.limit_lvl_50\"}','{\"translate\":\"in.ice.weaponitem.lore.a\"}','{\"translate\":\"in.ice.weaponitem.lore.b\"}','{\"translate\":\"in.ice.weaponitem.lore.c\"}','{\"translate\":\"in.ice.weaponitem.lore.d\"}','{\"translate\":\"in.ice.weaponitem.lore.e\"}','{\"translate\":\"in.ice.weaponitem.lore.f\"}']}}"   
+                }
+            ]
+          }
+        ]
+      }
+    ]
+}

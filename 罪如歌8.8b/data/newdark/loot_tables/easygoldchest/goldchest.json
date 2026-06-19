@@ -1,0 +1,121 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "_comment":"金宝箱产物-始皇",
+                    "weight": 15,
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dark:1,chest:3,id:\"panling:instance1_collection\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-火魔",
+                    "weight": 15,
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dark:1,chest:3,id:\"panling:instance2_collection\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-镇妖塔",
+                    "weight": 15,
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dark:1,chest:3,id:\"panling:instance3_collection\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-哭霸",
+                    "weight": 15,
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dark:1,chest:3,id:\"panling:instance4_collection\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-假盘古",
+                    "weight": 10,
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dark:1,chest:3,id:\"panling:instance5_collection\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":2
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-罪之石",
+                    "weight": 30,
+                    "type": "minecraft:item",
+                    "name": "minecraft:fire_charge",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{dark:1,chest:3,id:\"dark:legend_stone\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器",
+                    "weight":0,
+                    "type": "minecraft:loot_table",
+                    "name":"newdark:easygoldchest/legend"
+                },
+                {
+                    "_comment":"金宝箱产物-神器必出",
+                    "weight":0,
+                    "type": "minecraft:loot_table",
+                    "name":"newdark:easygoldchest/legend",
+                    "conditions": [
+                        {
+                            "condition": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "probability":1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

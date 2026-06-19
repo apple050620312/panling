@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "npc1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                
+                "entity": {
+                    "nbt": "{Tags:[\"2skillusing\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "fairy:bossskills/0/2bit"
+    }
+}

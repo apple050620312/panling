@@ -1,0 +1,5 @@
+scoreboard objectives add test_bless trigger ["玩家試煉祝福選擇"]
+scoreboard objectives add test_bless_act dummy ["玩家激活試煉祝福標記"]
+#scoreboard objectives add use_bless minecraft.used:minecraft.carrot_on_a_stick ["玩家使用祝福"]
+scoreboard objectives add bless_cool dummy ["祝福主動冷卻"]
+scoreboard objectives add blessSwitch_cool dummy ["祝福切換冷卻"]

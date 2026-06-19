@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_wool"
+        },
+        "title": {"translate": "dlc.adv.sins.instances.dark.18"},
+        "description": {"translate": "dlc.adv.sins.instances.dark.18.lore"},
+        "announce_to_chat": true,
+        "show_toast": true
+    },
+    "parent": "dlc:adv/instances/dark",
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "dlc:main/advancements/adv/dark"
+    }
+}

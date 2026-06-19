@@ -1,0 +1,122 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "_comment":"金宝箱产物-勾玉",
+                    "weight": 10,
+                    "type": "minecraft:item",
+                    "name": "minecraft:cyan_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{draw:1,chest:3,id:\"ice:balance\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-勾玉",
+                    "weight": 10,
+                    "type": "minecraft:item",
+                    "name": "minecraft:gray_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{draw:1,chest:3,id:\"fire:balance\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器雏形",
+                    "weight": 5,
+                    "type": "minecraft:item",
+                    "name": "minecraft:phantom_membrane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{draw:1,chest:3,id:\"ice:weapon_item\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器雏形",
+                    "weight": 5,
+                    "type": "minecraft:item",
+                    "name": "minecraft:phantom_membrane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{draw:1,chest:3,id:\"fire:weapon_item\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器雏形",
+                    "weight": 5,
+                    "type": "minecraft:item",
+                    "name": "minecraft:phantom_membrane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{draw:1,chest:3,id:\"dream:weapon_item\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器雏形",
+                    "weight": 5,
+                    "type": "minecraft:item",
+                    "name": "minecraft:phantom_membrane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{draw:1,chest:3,id:\"fairy:weapon_item\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-罪",
+                    "weight": 50,
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{draw:1,chest:3,id:\"sins:collection\"}"
+                        },{
+                            "function": "minecraft:set_count",
+                            "count":1
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器",
+                    "weight": 10,
+                    "type": "minecraft:loot_table",
+                    "name":"draw:legend"
+                }
+
+            ]
+        }
+    ]
+}

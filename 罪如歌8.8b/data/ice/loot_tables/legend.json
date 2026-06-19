@@ -1,0 +1,118 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "_comment":"金宝箱产物-头盔",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ice:1,chest:3,id:\"ice:helmet\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "gotten_icehelmet":1
+                                }
+                            } 
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-武器",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ice:1,chest:3,id:\"ice:weapon\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "gotten_iceweapon":1
+                                }
+                            } 
+                        },
+                        {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "job":1
+                                }
+                            
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器替代物-千炼玉",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ice:1,chest:3,id:\"panling:armor_core_52\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gotten_icehelmet":1,
+                                "gotten_iceweapon":1
+                            }   
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器替代物-千炼玉",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ice:1,chest:3,id:\"panling:armor_core_52\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gotten_icehelmet":1
+                            }   
+                        },{
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "job":1
+                                }
+                            } 
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

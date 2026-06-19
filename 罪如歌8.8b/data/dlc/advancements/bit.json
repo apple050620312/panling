@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "npc1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                
+                "entity": {
+                    "nbt": "{Tags:[\"monster\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dlc:main/advancements/bit"
+    }
+}

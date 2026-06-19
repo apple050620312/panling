@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:magma_cream",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"panling:earth\",display:{Name:'{\"translate\":\"pl.item.name.earth\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count":{
+                                "type":"minecraft:uniform",
+                                "max": 2,
+                                "min": 0
+                            }
+                        }
+                    ]
+                },{"type": "minecraft:item","name": "minecraft:blaze_rod","functions": [{"function": "minecraft:set_nbt","tag": "{id:\"fire:fire\",display:{Name:'{\"text\":\"§r§c高纯度火元素碎片\"}'}}"},                        {
+                    "function": "minecraft:set_count",
+                    "count":{
+                        "type":"minecraft:uniform",
+                        "max": 8,
+                        "min": 0
+                    }
+                }]}
+            ]
+        }
+    ]
+}

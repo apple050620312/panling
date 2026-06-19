@@ -1,0 +1,2 @@
+execute if score @s job matches 1 if score @s weapon_rare matches 20241223 if score @s weapon_branch matches 2 if entity @s[nbt={SelectedItem:{tag:{id:"dlc:fire_bow"}}}] at @s run function dlc:weapon_skill/firebow/attack
+advancement revoke @s only dlc:attack

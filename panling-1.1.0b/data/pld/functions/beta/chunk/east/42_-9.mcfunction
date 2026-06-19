@@ -1,0 +1,12 @@
+#區塊強加載
+forceload add 687 -135 693 -147
+#要做的事
+
+setblock 687 33 -135 minecraft:spawner{SpawnPotentials:[{data:{entity:{id:"minecraft:falling_block",NoGravity:1,Pos:[687.5,39.5,-134.5],Tags:["east","zombie"],Silent:1,DropItem:0,HurtEntities:0,BlockState:{Name:"barrier"}}},weight:1}],MaxNearbyEntities:2s,RequiredPlayerRange:18s,SpawnCount:1s,MaxSpawnDelay:1000s,MinSpawnDelay:400s,SpawnRange:4s,Delay:10s} destroy
+setblock 693 27 -147 minecraft:spawner{SpawnPotentials:[{data:{entity:{id:"minecraft:falling_block",NoGravity:1,Pos:[693.5,33.5,-146.5],Tags:["east","zombie"],Silent:1,DropItem:0,HurtEntities:0,BlockState:{Name:"barrier"}}},weight:1}],MaxNearbyEntities:2s,RequiredPlayerRange:18s,SpawnCount:1s,MaxSpawnDelay:1000s,MinSpawnDelay:400s,SpawnRange:4s,Delay:10s} destroy
+#區塊卸載
+forceload remove 687 -135 693 -147
+#記分板數值增加以及bossbar修改
+function pld:beta/chunk/count
+#鏈接下一個chunk
+schedule function pld:beta/chunk/east/42_7 1t

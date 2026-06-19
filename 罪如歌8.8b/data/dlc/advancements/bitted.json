@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "npc1": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                "blocked": false,
+                "source_entity": {
+                    "nbt":"{Tags:[\"monster\"]}"
+                }
+            }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dlc:main/advancements/bitted"
+    }
+}

@@ -1,0 +1,1 @@
+execute as @p[distance=0.1..5] run function op:z/copy

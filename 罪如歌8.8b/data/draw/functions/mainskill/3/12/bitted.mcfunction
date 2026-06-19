@@ -1,0 +1,1 @@
+execute as @a if score @s dlc_ins matches 5 run damage @s 10 out_of_world

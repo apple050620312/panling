@@ -1,0 +1,6 @@
+#任務標記變成奇數
+scoreboard players set @s process_ren_hide 5
+#對話標記初始化
+scoreboard players set @s conversation_ren_hide 1
+#下一句對話開始延遲
+scoreboard players set @s tick_ren_hide 2

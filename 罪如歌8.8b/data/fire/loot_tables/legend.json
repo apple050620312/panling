@@ -1,0 +1,118 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "_comment":"金宝箱产物-裤子",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{fire:1,chest:3,id:\"fire:leggings\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "gotten_fireleggings":1
+                                }
+                            } 
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-武器",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{fire:1,chest:3,id:\"fire:sword\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "gotten_firesword":1
+                                }
+                            } 
+                        },
+                        {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "job":0
+                                }
+                            
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器替代物-千炼玉",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{fire:1,chest:3,id:\"panling:armor_core_52\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gotten_fireleggings":1,
+                                "gotten_firesword":1
+                            }   
+                        }
+                    ]
+                },
+                {
+                    "_comment":"金宝箱产物-神器替代物-千炼玉",
+                    "weight": 1,
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{fire:1,chest:3,id:\"panling:armor_core_52\"}"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gotten_fireleggings":1
+                            }   
+                        },{
+                            "condition": "minecraft:inverted",
+                            "term": {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "job":0
+                                }
+                            } 
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

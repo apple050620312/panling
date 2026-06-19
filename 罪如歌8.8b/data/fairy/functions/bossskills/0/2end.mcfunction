@@ -1,0 +1,2 @@
+execute as @e[tag=monster,tag=fairy_boss,tag=dlc] run tag @s remove 2skillusing
+execute if score #dlc sword.boss.maxhp matches 4..5 run tellraw @a[scores={dlc_ins=4}] [{"text":"卯十八的陣御術結束了","color": "aqua"}]

@@ -1,0 +1,19 @@
+{
+    "parent": "pld:exploration/race",
+    "display": {
+        "icon": {
+            "item": "minecraft:green_dye"
+        },
+        "title": "盤古血脈",
+        "description": {"translate": "pl.adv.shen.description"},
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pld:adv/gameplay/exploration/race_shen"
+    }
+}

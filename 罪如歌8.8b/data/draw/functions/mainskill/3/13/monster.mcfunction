@@ -1,0 +1,1 @@
+execute store result entity @s HandItems[0].tag.Enchantments[0].lvl int 1 run scoreboard players get #dlc archer_damage

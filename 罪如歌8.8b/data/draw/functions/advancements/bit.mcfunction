@@ -1,0 +1,1 @@
+execute if score #dlc draw.boss.maxhp matches 1 if score #dlc draw.bossskill.mainskill.3.tag matches 2 run function draw:mainskill/3/02/bit

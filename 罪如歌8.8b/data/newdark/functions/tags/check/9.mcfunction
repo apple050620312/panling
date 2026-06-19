@@ -1,0 +1,1 @@
+execute if score @s dark_on matches 1 if score #system dark_tag_9 matches 1 run damage @s 10 out_of_world

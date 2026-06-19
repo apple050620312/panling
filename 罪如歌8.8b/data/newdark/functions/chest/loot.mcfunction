@@ -1,0 +1,15 @@
+execute store success score @s success run clear @s[scores={gold_chest=1..}] yellow_dye{id:"panling:goldkey"} 1
+kill @e[type=item,limit=1,sort=nearest,nbt={Item:{tag:{dark:1}}}]
+loot spawn ~ ~ ~ loot newdark:easygoldchest/goldchest
+execute as @e[limit=1,type=item,sort=nearest,nbt={Item:{tag:{dark:1,chest:3}}}] run function newdark:chest/judge
+scoreboard players remove @s[scores={success=1..,gold_chest=1..}] gold_chest 1
+scoreboard players set @s[tag=!op,scores={success=1..}] probability 0
+scoreboard players set @s[scores={success=1..}] success 0
+
+#loot spawn ~ ~10 ~ loot newdark:pos
+#execute if entity @e[type=item,nbt={Item:{id:"minecraft:stone",tag:{darkpos:1,pos:1}}}] run give @s minecraft:echo_shard{display:{Name:"[{\"text\":\"韶華閣核心\",\"color\":\"gold\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Lore:["{\"text\":\"韶華閣自研核心,但是並不在韶華閣售賣\",\"color\":\"red\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]},id:"shaohua_hexin"} 1
+#execute if entity @e[type=item,nbt={Item:{id:"minecraft:stone",tag:{darkpos:1,pos:2}}}] run give @s minecraft:light_gray_dye{display:{Name:"[{\"text\":\"被封印的碎片·壹\",\"color\":\"red\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Lore:["{\"text\":\"一小塊世界碎片,上面殘留着微弱的靈力\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]},id:"jinghong1",Enchantments:[{}]}
+#execute if entity @e[type=item,nbt={Item:{id:"minecraft:stone",tag:{darkpos:1,pos:3}}}] run give @s minecraft:light_gray_dye{display:{Name:"[{\"text\":\"被封印的碎片·貳\",\"color\":\"red\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Lore:["{\"text\":\"一小塊世界碎片,上面殘留着微弱的靈力\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]},id:"jinghong2",Enchantments:[{}]}
+#execute if entity @e[type=item,nbt={Item:{id:"minecraft:stone",tag:{darkpos:1,pos:4}}}] run give @s minecraft:light_gray_dye{display:{Name:"[{\"text\":\"被封印的碎片·叄\",\"color\":\"red\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Lore:["{\"text\":\"一小塊世界碎片,上面殘留着微弱的靈力\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]},id:"jinghong3",Enchantments:[{}]}
+#execute if entity @e[type=item,nbt={Item:{id:"minecraft:stone",tag:{darkpos:1,pos:5}}}] run give @s minecraft:light_gray_dye{display:{Name:"[{\"text\":\"被封印的碎片·肆\",\"color\":\"red\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]",Lore:["{\"text\":\"一小塊世界碎片,上面殘留着微弱的靈力\",\"color\":\"gray\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"]},id:"jinghong4",iEnchantments:[{}]}
+#kill @e[type=item,nbt={Item:{id:"minecraft:stone",tag:{darkpos:1}}}]

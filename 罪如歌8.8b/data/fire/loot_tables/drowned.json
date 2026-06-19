@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {"type": "minecraft:item",
+                    "name": "minecraft:string",
+                    "functions": [{
+                        "function": "minecraft:set_nbt",
+                        "tag": "{id:\"fire:water\",display:{Name:'{\"text\":\"§r§c高纯度水元素碎片\"}'}}"},
+                        {
+                    "function": "minecraft:set_count",
+                    "count":{
+                        "type":"minecraft:uniform",
+                        "max": 8,
+                        "min": 0
+                    }
+                }]}
+            ]
+        }
+    ]
+}

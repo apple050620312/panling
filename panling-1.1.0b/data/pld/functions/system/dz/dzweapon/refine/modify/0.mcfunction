@@ -1,0 +1,5 @@
+# -5
+#移除當前位置的內容
+data remove block ~ ~ ~ Items[{Slot:3b}].tag.display.Lore.[-5]
+#增加內容
+data modify block ~ ~ ~ Items[{Slot:3b}].tag.display.Lore insert -5 from storage pld:system dzTemp

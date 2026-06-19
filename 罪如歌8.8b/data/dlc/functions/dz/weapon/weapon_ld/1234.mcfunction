@@ -1,0 +1,6 @@
+#硬幣鍛造
+give @p redstone{id:"dlc:ld_yb",type:1,limit:1,rare:20241226,yi5:1,display:{Name:'{"translate":"dlc.lore.weapon.2.61234.name"}',Lore:['{"translate":"pl.lore.rare6"}','[{"translate":"pl.lore.limit2"},{"text":"  "},{"translate":"pl.lore.limit_lvl_50"}]','{"translate":"dlc.lore.weapon.2.61234.a"}','{"translate":"dlc.lore.weapon.2.61234.b"}','{"translate":"dlc.lore.weapon.2.61234.c"}','{"translate":"dlc.lore.weapon.2.61234.d"}','{"translate":"dlc.lore.weaponskill.2.61234.1"}','{"translate":"dlc.lore.weaponskill.2.61234.2"}','{"translate":"dlc.lore.weaponskill.2.61234.3"}','{"translate":"dlc.lore.weaponskill.2.61234.4"}','{"translate":"dlc.lore.weaponskill.2.61234.5"}','{"translate":"dlc.lore.weaponskill.2.61234.6"}','{"translate":"dlc.lore.weaponskill.2.61234.7"}','{"translate":"dlc.lore.weaponskill.sins.a"}','{"translate":"dlc.lore.weaponskill.sins.b"}']},HideFlags:63,Unbreakable:1b,modify:0}
+clear @s enchanted_book{yi1:1} 1
+clear @s enchanted_book{yi2:1} 1
+clear @s enchanted_book{yi3:1} 1
+clear @s enchanted_book{yi4:1} 1

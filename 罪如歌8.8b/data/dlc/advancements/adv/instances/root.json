@@ -1,0 +1,17 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "title": {"translate": "dlc.adv.sins.instances"},
+        "description": {"translate": "dlc.adv.sins.instances.lore"},
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "dlc:adv/start",
+    "criteria": {
+        "impossibe":{
+        "trigger": "minecraft:impossible"
+        }
+    }
+}

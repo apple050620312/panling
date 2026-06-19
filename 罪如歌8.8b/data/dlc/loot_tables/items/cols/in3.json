@@ -1,0 +1,13 @@
+{
+    "pools": [
+        {
+            "rolls":4,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "pld:items/instance3_collection"
+                }
+            ]
+        }
+    ]
+}

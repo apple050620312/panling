@@ -1,0 +1,7 @@
+
+#元素
+data modify entity @s Offers.Recipes append value {buy:{id: "minecraft:gold_ingot",Count:1b,tag:{display:{Name:'{"translate":"pl.item.name.gold"}'},id:"panling:gold_ingot"}}, sell:{id:"minecraft:emerald",Count:20b,tag:{id:"panling:metal",display:{Name:'{"translate":"pl.item.name.metal"}'}}}, xp:0,uses:0,maxUses:4,priceMultiplier:0f,specialPrice:0,demand:0,rewardExp: 0b}
+#種族貨幣
+data modify entity @s Offers.Recipes append value {buy:{id: "minecraft:gold_ingot",Count:3b,tag:{display:{Name:'{"translate":"pl.item.name.gold"}'},id:"panling:gold_ingot"}}, sell:{id:"minecraft:brick",Count:1b,tag:{CustomModelData:1,id:"panling:money0",display:{Name:'{"translate":"pl.item.name.money0"}',Lore:['{"translate":"pl.item.lore.money0a"}','{"translate":"pl.item.lore.money0b"}','{"translate":"pl.item.lore.money0c"}']}}}, xp:0,uses:0,maxUses:3,priceMultiplier:0f,specialPrice:0,demand:0,rewardExp: 0b}
+#副本貨物
+data modify entity @s Offers.Recipes append value {buy:{id: "minecraft:gold_ingot",Count:5b,tag:{display:{Name:'{"translate":"pl.item.name.gold"}'},id:"panling:gold_ingot"}}, sell:{id:"minecraft:orange_dye",Count:1b,tag:{HideFlags:63,Enchantments:[{id:"minecraft:protection",lvl:1s}],id:"panling:instance3_collection",display:{Name:'{"translate":"pl.item.name.instance3_collection"}',Lore:['{"translate":"pl.item.lore.instance3_collectiona"}','{"translate":"pl.item.lore.instance3_collectionb"}']}}}, xp:0,uses:0,maxUses:3,priceMultiplier:0f,specialPrice:0,demand:0,rewardExp: 0b}

@@ -1,0 +1,2 @@
+execute unless entity @e[type=minecraft:blaze,tag=fireblaze,distance=..7] run summon blaze ~ ~ ~ {Team:"monster",Tags:["panling","not_undead","monster","fire"],PersistenceRequired:1,CanPickUpLoot:false,ArmorDropChances:[0f,0f,0f,0f],HandDropChances:[0f,0f],CustomNameVisible:1b,CustomName:'{"text":"§c燃燒的 火陣法魔物"}',DeathLootTable:"fire:blaze",Health:250.0f,Attributes:[{Name:"generic.max_health",Base:250d},{Name:"generic.follow_range",Base:40d},{Name:"generic.movement_speed",Base:0.2d},{Name:"generic.attack_damage",Base:0d}],ArmorItems:[{},{},{},{}],HandItems:[{},{}]}
+kill @s

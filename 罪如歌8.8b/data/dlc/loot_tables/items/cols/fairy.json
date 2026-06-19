@@ -1,0 +1,19 @@
+{
+    "pools": [
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:orange_dye",
+            "functions": [
+                {
+                    "function": "minecraft:set_nbt",
+                    "tag": "{HideFlags:63,Enchantments:[{id:\"minecraft:protection\",lvl:1s}],id:\"fairy:collection\",dlc:\"collection\",display:{Name:'{\"translate\":\"in.fairy.collection.name\"}',Lore:['{\"translate\":\"in.fairy.collection.lore.a\"}','{\"translate\":\"in.fairy.collection.lore.b\"}','{\"translate\":\"in.fairy.collection.lore.c\"}']}}"   
+                }
+            ]
+          }
+        ]
+      }
+    ]
+}
