@@ -1,5 +1,5 @@
 #實時統計數量
-execute if entity @e[type=armor_stand,tag=instance4] if entity @a[x=912,y=57,z=1214,dx=62,dy=52,dz=70] run scoreboard players set #system instance4_bird 0
+execute if entity @a[x=912,y=57,z=1214,dx=62,dy=52,dz=70] if entity @e[type=armor_stand,tag=instance4] run scoreboard players set #system instance4_bird 0
 execute store result score #system instance4_bird run execute if entity @e[x=912,y=57,z=1214,dx=62,dy=52,dz=70,type=ghast]
 
 #三鳥與大魚死亡判定

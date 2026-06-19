@@ -1,9 +1,9 @@
 #==================================世界tick==================================#
 #副本tick
 #始皇陵全界tick
-execute if entity @e[type=armor_stand,tag=instance1] if entity @a[x=2795,y=68,z=-432,dx=47,dy=27,dz=36] run function pld:instances/instance1/ticks/tick
+execute if entity @a[x=2795,y=68,z=-432,dx=47,dy=27,dz=36] if entity @e[type=armor_stand,tag=instance1] run function pld:instances/instance1/ticks/tick
 #火魔全界tick
-execute if entity @e[type=armor_stand,tag=instance2] if entity @a[x=1052,y=3,z=864,dx=82,dy=55,dz=64] run function pld:instances/instance2/tick
+execute if entity @a[x=1052,y=3,z=864,dx=82,dy=55,dz=64] if entity @e[type=armor_stand,tag=instance2] run function pld:instances/instance2/tick
 #鎮妖塔地上層全界tick
 execute if entity @a[x=2640,y=30,z=-960,dx=150,dy=47,dz=150] run function pld:instances/instance3/tick
 #鎮妖塔地下層全界tick

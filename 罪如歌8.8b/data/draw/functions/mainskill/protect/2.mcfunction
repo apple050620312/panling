@@ -30,7 +30,4 @@ setblock 653 56 -1920 redstone_block replace
 schedule function draw:mainskill/protect/clear2 2t
 
 
-
-execute if score #dlc draw.boss.maxhp matches 3 run function draw:bosskind/half/1
-execute if score #dlc draw.boss.maxhp matches 2 run function draw:bosskind/half/2
-execute if score #dlc draw.boss.maxhp matches 1 run function draw:bosskind/half/3
+
