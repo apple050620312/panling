@@ -23,5 +23,29 @@ scoreboard players operation #temp temp2 += #temp temp
 execute store result entity @s Pos[2] double 0.001 run scoreboard players get #temp temp2
 
 
-execute at @s run fill ~-2 ~ ~-2 ~2 ~ ~2 black_concrete_powder
+execute at @s run summon falling_block ~-2 ~ ~-2 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~-1 ~ ~-2 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~ ~ ~-2 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~1 ~ ~-2 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~2 ~ ~-2 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~-2 ~ ~-1 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~-1 ~ ~-1 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~ ~ ~-1 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~1 ~ ~-1 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~2 ~ ~-1 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~-2 ~ ~ {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~-1 ~ ~ {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~1 ~ ~ {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~2 ~ ~ {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~-2 ~ ~1 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~-1 ~ ~1 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~ ~ ~1 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~1 ~ ~1 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~2 ~ ~1 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~-2 ~ ~2 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~-1 ~ ~2 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~ ~ ~2 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~1 ~ ~2 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
+execute at @s run summon falling_block ~2 ~ ~2 {BlockState:{Name:"minecraft:black_concrete_powder"},Time:1,DropItem:0b}
 kill @s
