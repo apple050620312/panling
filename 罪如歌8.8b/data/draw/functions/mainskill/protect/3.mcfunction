@@ -6,7 +6,7 @@ scoreboard players remove #dlc draw.bossskill.fall 1
 
 
 
-execute if score #dlc draw_on matches 2 if score #dlc draw.bossskill.fall matches 100.. positioned 655 35 -1920 run summon marker ~ ~ ~ {Tags:["draw.bossskill1.marker"]}
+execute if score #dlc draw_on matches 2 if score #dlc draw.bossskill.fall matches 100.. positioned 655 25 -1920 run summon marker ~ ~ ~ {Tags:["draw.bossskill1.marker"]}
 execute if score #dlc draw_on matches 2 if score #dlc draw.bossskill.fall matches 100.. as @e[tag=draw.bossskill1.marker] run function draw:mainskill/protect/4
 
 execute if score #dlc draw_on matches 2 if score #dlc draw.bossskill.fall matches 0 run function draw:mainskill/protect/2

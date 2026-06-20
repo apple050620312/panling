@@ -25,9 +25,12 @@ setblock 653 55 -1920 structure_block{metadata: "", mirror: "NONE", ignoreEntiti
 setblock 653 55 -1921 structure_block{metadata: "", mirror: "NONE", ignoreEntities: 1b, powered: 0b, seed: 0L, author: "Creazeny", rotation: "NONE", posX: 1, mode: "LOAD", posY: -44, sizeX: 27, posZ: 1, integrity: 1.0f, showair: 0b, name: "draw:3", x: 653, y: 55, z: -1921, id: "minecraft:structure_block", sizeY: 44, sizeZ: 26, showboundingbox: 1b} replace
 setblock 654 55 -1921 structure_block{metadata: "", mirror: "NONE", ignoreEntities: 1b, powered: 0b, seed: 0L, author: "Creazeny", rotation: "NONE", posX: -25, mode: "LOAD", posY: -44, sizeX: 25, posZ: 1, integrity: 1.0f, showair: 0b, name: "draw:2", x: 654, y: 55, z: -1921, id: "minecraft:structure_block", sizeY: 44, sizeZ: 26, showboundingbox: 1b} replace
 setblock 654 55 -1920 structure_block{metadata: "", mirror: "NONE", ignoreEntities: 1b, powered: 0b, seed: 0L, author: "Creazeny", rotation: "NONE", posX: -25, mode: "LOAD", posY: -44, sizeX: 25, posZ: -26, integrity: 1.0f, showair: 0b, name: "draw:1", x: 654, y: 55, z: -1920, id: "minecraft:structure_block", sizeY: 44, sizeZ: 26, showboundingbox: 1b} replace
+fill 653 56 -1920 654 56 -1921 redstone_block replace
+fill 653 56 -1920 654 55 -1921 air replace
+forceload remove 628 -1945 681 -1894
 
-setblock 653 56 -1920 redstone_block replace
-schedule function draw:mainskill/protect/clear2 2t
 
 
-
+execute if score #dlc draw.boss.maxhp matches 3 run function draw:bosskind/half/1
+execute if score #dlc draw.boss.maxhp matches 2 run function draw:bosskind/half/2
+execute if score #dlc draw.boss.maxhp matches 1 run function draw:bosskind/half/3
