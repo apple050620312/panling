@@ -1,13 +1,5 @@
-#標記怪物
-execute as @s[scores={zf_hold_ldl=1}] run tag @e[tag=monster,limit=1,distance=..5,sort=nearest] add metaltag
-execute as @s[scores={zf_hold_ldl=2}] run tag @e[tag=monster,limit=1,distance=..10,sort=nearest] add metaltag
-execute as @s[scores={zf_hold_ldl=3}] run tag @e[tag=monster,limit=1,distance=..10,sort=nearest] add metaltag
-execute as @s[scores={zf_hold_ldl=4}] run tag @e[tag=monster,limit=1,distance=..10,sort=nearest] add metaltag
-
-execute as @s[scores={zf_hold_ldl=-1}] run tag @e[tag=monster,limit=1,distance=..5,sort=nearest] add metaltag
-execute as @s[scores={zf_hold_ldl=-2}] run tag @e[tag=monster,limit=1,distance=..10,sort=nearest] add metaltag
-execute as @s[scores={zf_hold_ldl=-3}] run tag @e[tag=monster,limit=1,distance=..10,sort=nearest] add metaltag
-execute as @s[scores={zf_hold_ldl=-4}] run tag @e[tag=monster,limit=1,distance=..10,sort=nearest] add metaltag
+#標記怪物（墨筆底色：直接標記範圍內怪物，不再依賴正方 zf_hold_ldl）
+tag @e[tag=monster,distance=..10,sort=nearest,limit=5] add metaltag
 
 #效果
 #execute as @s[scores={zf_hold_ldl=1..}] at @s store success score @s[scores={zfsuccess=0}] zfsuccess run effect give @e[tag=undead,tag=metaltag] instant_health 1 3 false

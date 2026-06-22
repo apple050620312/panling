@@ -5,7 +5,7 @@ execute if entity @s[nbt={Inventory:[{Slot:8b,tag:{id:"panling:fire"}}]}] run sc
 execute if entity @s[nbt={Inventory:[{Slot:8b,tag:{id:"panling:earth"}}]}] run scoreboard players set #dlc sins.brush.type 5
 
 
-execute if score #dlc sins.brush.type matches 1 at @a[distance=0.01..16] run function dlc:weapon_skill/brush/1
+execute if score #dlc sins.brush.type matches 1 at @a[distance=0.01..16,limit=1,sort=nearest] run function dlc:weapon_skill/brush/1
 execute if score #dlc sins.brush.type matches 2 at @a[distance=0.01..16] run function dlc:weapon_skill/brush/2
 execute if score #dlc sins.brush.type matches 3 at @a[distance=0.01..16] run function dlc:weapon_skill/brush/3
 execute if score #dlc sins.brush.type matches 4 at @a[distance=0.01..16] run function dlc:weapon_skill/brush/4

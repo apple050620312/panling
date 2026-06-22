@@ -16,7 +16,7 @@ execute unless score @s yi.time matches 0.. if entity @s[nbt={SelectedItem:{tag:
 
 execute if score @s 1 matches 1 run scoreboard players set @s yi.time 240
 
-execute if score @s 1 matches 2 run scoreboard players set @s yi.time 1200
+execute if score @s 1 matches 2 run scoreboard players set @s yi.time 1800
 
 
 
